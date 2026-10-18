@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --neon-cyan: #00ffcc;
+    --neon-glow: 0 0 16px rgba(0, 255, 204, 0.5);
+  }
+
+  body {
+    background-color: #07090e;
+    color: #ffffff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Neon Glow Utilities */
+.neon-border-cyan {
+  border-color: rgba(0, 255, 204, 0.45);
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.18), inset 0 0 15px rgba(0, 255, 204, 0.05);
+}
+
+.neon-border-cyan:hover {
+  border-color: rgba(0, 255, 204, 0.85);
+  box-shadow: 0 0 22px rgba(0, 255, 204, 0.35), inset 0 0 15px rgba(0, 255, 204, 0.08);
+}
+
+.neon-glow-text {
+  text-shadow: 0 0 10px rgba(0, 255, 204, 0.7), 0 0 22px rgba(0, 255, 204, 0.3);
+}
+
+.neon-panel {
+  background-color: #0b0d14;
+  border: 1px solid rgba(0, 255, 204, 0.25);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.95), 0 0 12px rgba(0, 255, 204, 0.1);
+}
+
+/* Custom Cyberpunk Dark Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 255, 204, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00ffcc;
+  box-shadow: 0 0 8px #00ffcc;
+}

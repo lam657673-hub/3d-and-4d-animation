@@ -1,0 +1,8 @@
+{
+  "name": "3D test aniamtiond",
+  "description": "Interactive 3D and 4D hyperspace simulator with joystick control, 4D polychora (Tesseract, 24-Cell), custom polygon extrusion, and 10,000 vertex benchmark.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
